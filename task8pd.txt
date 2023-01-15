@@ -1,0 +1,35 @@
+#include<iostream>
+using namespace std;
+main()
+{
+int x,h,y;
+out<<"enter h";
+cin>>h;
+cout<<"fhfj";
+cin>>x;
+cout<<"gjufjd";
+cin>>y;
+if(x>0 && x<(h*3) && y>h)
+{ cout<<<"inside";
+}
+else if(x=>h && x<h*2 && y<h*4)
+{
+cout<<"inside";
+}
+else if(x>h*3)
+{
+cout<<"outside";
+}
+ else if(y<=h&&y>h*2)
+{
+cout<<"outside";
+}
+else if(y>(h*h)+h)
+{
+cout<<"outside";
+}
+else
+{
+cout<<"border";
+}
+}
